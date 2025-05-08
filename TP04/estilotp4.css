@@ -1,0 +1,62 @@
+body{
+    background-color: goldenrod;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+}
+#contenedor{
+    background-color: aliceblue;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px;
+}
+header{
+    font-size: xx-large;
+    text-align: center;
+    color: darkgoldenrod
+}
+nav a{
+    text-decoration: none;
+    background-color: goldenrod;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 8px;
+    transition: 0,3s;
+}
+nav a:hover{
+    background-color: darkgoldenrod;
+}
+main{
+    margin-top: 16px;
+    font-size: 20px;
+}
+article{
+    padding: 15px;
+    background-color: lightgray;
+}
+article h2{
+    margin: 0;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+galeria img{
+    width: 20%;
+    margin: 2.5%;
+    transition: 0.3S;
+    cursor: pointer;
+}
+section{
+    margin-top: 15px;
+    font-size: 20px;
+}
+galeria{
+    font-size: 0;
+}
+galeria img:hover{
+width: 25%;
+margin: 0;
+}

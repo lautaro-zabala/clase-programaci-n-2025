@@ -1,0 +1,91 @@
+#parrafo1,
+#div1,
+#a1 {
+    color: dodgerblue;
+}
+
+#div2 {
+    color: darkkhaki;
+}
+
+#div2 p {
+    color: lightblue;
+}
+
+#div2 p b {
+    color: brown;
+}
+
+#div2 p b a {
+    color: gold;
+}
+
+#div3 {
+    color: cyan;
+}
+
+#div3>p {
+    color: darkorange;
+}
+
+#div3>div>p {
+    color: green;
+}
+
+.fondoPrimario {
+    background-color: aquamarine;
+}
+
+.fondoSecundario {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.textoGrande {
+    font-size: x-large;
+}
+
+.textoChico {
+    font-size: x-small;
+}
+
+.colorPrimario {
+    color: red;
+}
+
+.colorSecundario {
+    color: white;
+}
+
+#pseudo {
+    padding: 30px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#pseudo:hover {
+    background-color: green;
+}
+
+#pseudo:active {
+    background-color: black;
+}
+
+#div4 > div {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: inline-block;
+}
+#div4 div:first-child{
+    background-color: white;
+}
+#div4 div:last-child{
+    background-color: white;
+}
+#div4 div:nth-child(7){
+    background-color: blue;
+}
+odd- 
