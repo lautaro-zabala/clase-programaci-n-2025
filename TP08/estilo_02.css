@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(black,white);
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+.caja{
+    margin: 16px auto;
+    padding: 16px;
+    width: 500px;
+}
+#texto1{
+    background-color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    text-align-last: auto;
+    font-size: large;
+}
+#texto1 span{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 180%;
+}
+#texto2{
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 170%;
+    letter-spacing: 2px;
+
+}
+#texto3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#texto3:hover{
+    white-space: wrap;
+}
