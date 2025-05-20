@@ -1,0 +1,53 @@
+mport url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: "Dancing Script", cursive;
+    background-color: goldenrod;
+    text-align: center;
+}
+#contenedor{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+#sombradetexto{
+  font-size: 42px;
+  font-weight: 600;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#sombradetexto2{
+    font-size: 42px;
+    font-weight: 600;
+    text-shadow: 5px 5px 0 rgb(18, 161, 49), 10px 6px 0 rgb(201, 188, 14);
+}
+.caja{
+    display: block;
+    width: 500px;
+    background-color: orange;
+    padding: 16px;
+    margin: 16px;
+}
+#sombracaja1{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.521);
+}
+#sombracaja2{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.466);
+}
+#sombracaja3{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.473)inset;
+}
+#sombracaja4{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+#opacidad{
+    opacity: 0.5;
+}
+#redimensionar{
+    overflow: auto;
+    resize: both;
+}

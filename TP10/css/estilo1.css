@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: peru;
+}
+
+#contenedor {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+#txt1 {
+    font-size: 24px;
+}
+
+#txt2 {
+    color: red;
+    font-size: 1, 5em;
+}
+
+#txt2 span {
+    font-size: 2em;
+}
+
+#txt3 {
+    color: orange;
+    font-size: 2rem;
+}
+
+#txt3 span {
+    font-size: 1rem;
+}
+
+#txt4 {
+    color: yellow;
+    font-size: 150%;
+}
+
+#txt4 span {
+    color: aqua;
+    font-size: 200%;
+}
+
+#txt5 {
+    color: blueviolet;
+    font-size: 4vw;
+}
+
+#txt5 span {
+    font-size: 2vw;
+}
+
+#caja1 {
+    background-color: chartreuse;
+    width: 18em;
+}
+
+#caja2 {
+    background-color: bisque;
+    width: 50%;
+}
+#caja3{
+    background-color: magenta;
+    width: 50vw;
+}
+#caja4{
+    background-color: coral;
+    height: 100px;
+    width: 50%;
+}
+#caja5{
+    background-color: crimson;
+    height: 50px;
+    width: 50%;
+}
+#caja6{
+    background-color: darkcyan;
+    width: 50%;
+    max-width: 300px;
+}
+#caja7{
+    background-color: brown;
+    width: 50%;
+    min-width: 300px;
+}

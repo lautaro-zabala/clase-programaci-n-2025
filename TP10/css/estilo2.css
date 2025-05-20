@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: rgb(4, 0, 30);
+    padding: 2em;
+}
+h1, h2{
+    color: white;
+}
+.caja{
+    background-color: darkorchid;
+    width: 300px;
+}
+.subcaja{
+    background-color: darkmagenta;
+    margin: 1em;
+    height: 200px;
+    width: 200px;
+    font-size: 2em;
+    text-align: center;
+}
+#estatico{
+    position: static;
+    top: 25px;
+    left: 25px;
+}
+
+#relativo{
+    position: relative;
+}
+#relativo:hover{
+    top: 25px;
+    left: 25px;
+}
+#fijo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
