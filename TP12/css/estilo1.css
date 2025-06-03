@@ -1,22 +1,23 @@
 body{
-    background-color: darkseagreen;
+    background-color: rgba(91, 94, 247, 0.825);
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 #contenedor{
     background-color: beige;
-    max-width:800px ; 
+    max-width:790px ; 
     margin: 0 auto;
     min-height: 100vh;
 }
 header{
     text-align: center;
+    padding: 1em;
 }
 header img{
-    width: 350px  
+    width: 300px  
 }
 header h1{
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0;
     color: #6495ed;
 }
@@ -79,7 +80,6 @@ nav:first-child{
 }
 #testimonios{
     padding: 0 2rem;
-    font-size: 0;
     text-align: center;
 }
 #testimonios > div > img{
@@ -105,10 +105,23 @@ nav:first-child{
     filter: grayscale(0%);
 }
 footer{
-    background-color: darkslategrey;
-    padding: 2em;
-    font-size: large;
+    background-color: gray;
+    padding: 1em;
+    font-size: medium;
+    display: inline-block;
 }
 footer img{
-    width: 30%;
+    width: 10%;
+}
+#sede{
+    width: 100%;
+}
+iframe{
+    padding: 1em    ;
+    border-width: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+#sede2{
+    padding: 1em;
 }
