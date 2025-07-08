@@ -42,7 +42,7 @@ if(monto > 50000){
     console.log("valor a pagar:", monto);
 } */
 
-let edad = window.prompt("ingrese su edad");
+/* let edad = window.prompt("ingrese su edad");
 
 if( edad > 17){
     console.log("mayor");
@@ -52,4 +52,33 @@ if( edad > 17){
 
 // operador ternario
 let respEdad = edad > 17 ? "mayor" : "menor";
-console.log(respEdad)
+console.log(respEdad) */
+
+// operadores && y ||
+
+let valor1 = true;
+let valor2 = false;
+
+console.log("operador &&", valor1 && valor2);
+console.log("operador ||", valor1 || valor2);
+
+if(10 = 10 && 20 = 20){
+    console.log("los numeros coinciden");
+} else {console.log("los numeros NO coinciden")}
+
+let color = window. prompt("color del semaforo");
+
+switch(color){
+    case "verde":
+        console.log("avanzar");
+        break;
+    case "amarillo":
+        console.log("precaucion");
+        break;
+    case "rojo":
+        console.log(detenerse);
+        break;
+    default:
+        console.log("semaforo roto");
+        break;
+    }
