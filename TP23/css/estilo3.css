@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 2s;
+    padding: 2em;
+    background-color: darkcyan;
+}
+h1{
+    columns: white;
+}
+body > div{
+    display: flex;
+    gap: 2em;
+}
+#formulario{
+    background-color: cyan;
+    padding: 1em;
+}
+#formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+#respuestas{
+    background-color: black;
+    color: cyan;
+    padding: 1em;
+}
