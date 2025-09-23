@@ -75,8 +75,29 @@ document.querySelectorAll("#cursos .btn").forEach((btn) => {
   })
 })
 
-function mostrarCurso(id){
-    console.log("funcion mostrar con id", id);
-    const cursoElegido = cursos.find((dato) => dato.id == id);
-    console.log(cursoElegido);
+function mostrarCurso(id) {
+  console.log("funcion mostrar con id", id);
+  const cursoElegido = cursos.find((dato) => dato.id == id);
+  console.log(cursoElegido);
+  document.querySelector("#detalles").innerHTML = `<h1>Curso: ${cursoElegido.nombre}</h1>
+    <span>cantidad de alumnos: ${cursoElegido.alumnos.length}<span>
+    <span>
+      <h2>lista de alumnos</h2>
+      <div id="alumnos">${crearAlumnos(cursoElegido)}</div>
+    </span>`;
+}
+
+function crearAlumnos(cursoElegido) {
+  let htmlSalida = ` `;
+  cursoElegido.alumnos.forEach((idDelAlumno) => {
+    const infoAlumno = alumnos.find((objetoAlumno) => objetoAlumno.id === idDelAlumno)
+    //console.log(infoAlumno)
+  htmlSalida += ` <div class="alumno">
+              <span>Nombre: ${infoAlumno.nombre}</span>
+               <span>Apellido: ${infoAlumno.apellido}</span>
+              <span>DNI: ${infoAlumno.dni}</span>
+              <span>Localidad: ${infoAlumno.localidad}</span>
+                  </div>`;
+  })
+  return htmlSalida;
 }
